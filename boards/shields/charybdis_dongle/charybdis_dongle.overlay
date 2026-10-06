@@ -65,6 +65,7 @@
         device = <&trackball_split>;
     };
 };
+};
 
 /* Ambient light sensor not installed on dongle - disable I2C1 to prevent
    nRF52840 TWIM from hanging on probe (no ACK -> WDT reset loop) */
