@@ -59,7 +59,6 @@
     tapping-term-ms = <170>;
 };
 
-/ {
   behaviors {
     // Hold-tap behavior for layer with tap-preferred
     blt: blt {
