@@ -3,9 +3,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/modifiers.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
+
 
 &mt {
     quick-tap-ms = <200>;
@@ -252,11 +254,11 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp ESC       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &trans       &CAC W        &kp C_VOL_UP  &kp LG(MINUS) &kp LG(EQUAL)     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp F11       &kp F12
+    &trans        &trans       &CAC W        &kp C_VOL_UP  &kp LG(MINUS) &kp LG(EQUAL)     &RGB_SPI      &RGB_SPD       &RGB_EFF      &RGB_EFR       &kp F11       &kp F12
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &none         &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp LG(N0)        &kp F23       &kp F24       &rgb_loc RGB_BRI &rgb_loc RGB_BRD &rgb_loc RGB_EFF &bootloader
+    &trans        &none         &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp LG(N0)        &kp F23       &kp F24       &RGB_BRI     &RGB_BRD      &trans        &bootloader
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &none         &none         &kp C_VOL_DN  &none         &none             &bt BT_CLR    &bt BT_CLR_ALL &rgb_loc RGB_ON &rgb_loc RGB_OFF &rgb_loc RGB_HUI &trans
+    &trans        &none         &none         &kp C_VOL_DN  &none         &none             &bt BT_CLR    &bt BT_CLR_ALL &RGB_ON     &RGB_OFF      &RGB_HUI      &RGB_HUD
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 //               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans
