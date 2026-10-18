@@ -64,8 +64,6 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-		
-		CHARYBDIS_TRACKBALL_PROCESSORS
     };
 	charybdis_6col_layout: charybdis_6col_layout {
 		compatible = "zmk,physical-layout";
