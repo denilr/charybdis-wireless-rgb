@@ -90,7 +90,8 @@ include:
           - dongle_prospector/dongle_prospector_common.conf
           - dongle_prospector_layouts/dongle_prospector_layout_operator.conf
           - dongle_prospector/dongle_prospector_sensor.conf
-
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 # ── Prospector XIAO BLE w/o APDS9960 ambient light sensor ──────────────
 #  - name: dongle_prospector_xiao_no_sensor
 #    board: xiao_ble//zmk
