@@ -1,0 +1,16 @@
+services:
+  builder:
+    image: zmkfirmware/zmk-dev-arm:stable
+    volumes:
+      # Bind-mount entire repo
+      - ../:/workspaces/zmk:rw
+    working_dir: /workspaces/zmk
+    environment:
+      ENABLE_USB_LOGGING: ${ENABLE_USB_LOGGING:-false}
+      SKIP_WEST_UPDATE: ${SKIP_WEST_UPDATE:-false}
+    entrypoint: []
+    command:
+      - bash
+      - ./local-build/build_setup.sh
+    tty: true
+    stdin_open: true
