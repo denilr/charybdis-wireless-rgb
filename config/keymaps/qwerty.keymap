@@ -341,9 +341,9 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &trans        &trans        &trans        &trans        &trans        &kp V             &rgb_ug RGB_TOG &rgb_ug RGB_ON &rgb_ug RGB_OFF &rgb_ug RGB_EFF &rgb_ug RGB_EFR &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &trans        &trans        &trans        &trans        &trans            &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &trans        &trans
+    &trans        &trans        &trans        &trans        &trans        &trans            &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI     &trans        &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &trans        &trans        &trans        &trans        &trans            &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans        &trans
+    &trans        &trans        &trans        &trans        &trans        &trans            &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD     &trans        &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &trans        &trans        &trans        &trans        &trans        &trans            &rgb_ug RGB_COLOR_HSB(0,100,40) &rgb_ug RGB_COLOR_HSB(120,100,40) &rgb_ug RGB_COLOR_HSB(240,100,40) &rgb_ug RGB_COLOR_HSB(0,0,40) &trans &trans
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
