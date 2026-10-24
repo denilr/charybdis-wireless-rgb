@@ -6,12 +6,12 @@ include:
 
 # ── Reset Firmware ────────────────────────────────────────────────────────────
   - name: settings_reset
-    board: nice_nano_v2
+    board: nice_nano
     shield: settings_reset
 
 # ── Bluetooth (BT) Firmwares ─────────────────────────────────────────────────────────────
   - name: bt
-    board: nice_nano_v2
+    board: nice_nano
     shield:
       - charybdis_left_bt
       - charybdis_right_bt
@@ -20,7 +20,7 @@ include:
 
 # ── Prospector Nice Nano v2 Dongle with APDS9960 ambient light sensor ──────────────────────────
   - name: dongle_prospector_nano_sensor
-    board: nice_nano_v2
+    board: nice_nano
     keymap:
       - qwerty
 
