@@ -182,10 +182,10 @@
 
 
 	// lighting layer toggle combo - keys 55, 54
-    combo_gaming_toggle {
+    combo_lighting_toggle {
       timeout-ms = <50>;
       key-positions = <55 54>;
-      bindings = <&tog GAMING>;
+      bindings = <&tog lighting>;
     };
   };
 
