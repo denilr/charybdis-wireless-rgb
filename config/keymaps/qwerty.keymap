@@ -189,9 +189,9 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp ESC       &rgb_ug RGB_TOG  &kp N2        &kp N3        &kp N4        &kp N5         &rgb_ug RGB_TOG &rgb_ug RGB_ON &rgb_ug RGB_OFF &rgb_ug RGB_EFF &rgb_ug RGB_EFR &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp TAB       &pbl PBL_TOG    &pbl PBL_DEC    &kp C_BRIGHTNESS_DEC         &kp R         &kp T            &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &trans        &trans
+    &kp TAB       &pbl PBL_TOG    &pbl PBL_DEC    &kp C_BRIGHTNESS_DEC  &kp R         &kp T            &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &trans        &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp RCTRL     &gcm            &pbl PBL_INC    &kp C_BRIGHTNESS_INC        &kp G             &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans        &trans
+    &kp RCTRL     &gcm            &pbl PBL_INC    &kp C_BRIGHTNESS_INC        &kp G  &trans           &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans        &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp LSFT      &pbl PBL_AUTO    &hml LALT X   &hml LCTRL C  &hml LSHIFT V &kp B             &rgb_ug RGB_COLOR_HSB(0,100,40) &rgb_ug RGB_COLOR_HSB(120,100,40) &rgb_ug RGB_COLOR_HSB(240,100,40) &rgb_ug RGB_COLOR_HSB(0,0,40) &trans &trans
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
