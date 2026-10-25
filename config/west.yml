@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: 280Zo
-      url-base: https://github.com/280Zo
+#    - name: 280Zo
+#      url-base: https://github.com/280Zo
     - name: denilr
       url-base: https://github.com/denilr
       
@@ -18,7 +18,7 @@ manifest:
 #    - name: prospector-zmk-module
 #      remote: 280Zo
 #      revision: main
-    - name: prospector-zmk-module-brightness-fix
+    - name: prospector-zmk-module
       remote: denilr
       revision: main  
 
