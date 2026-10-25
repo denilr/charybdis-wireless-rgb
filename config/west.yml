@@ -15,7 +15,7 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: 280Zo
       revision: main
-    - name: prospector-zmk-module-brightness-fix
+    - name: prospector-zmk-module
       remote: denilr
       repo-path: prospector-zmk-module-brightness-fix
       revision: main
