@@ -41,17 +41,20 @@
 #define GAMING 7
 #define LIGHTING 8
 
+/ {
 
 #ifndef CONFIG_SHIELD_PROSPECTOR_ADAPTER
-    behaviors {
-        /omit-if-no-ref/ pbl: prospector_brightness_stub {
-            compatible = "zmk,behavior-macro-two-param";
-            #binding-cells = <2>;
-            bindings = <&none>;
-        };
+  // Stub so &pbl compiles on non-Prospector builds; the real one comes from the module
+  behaviors {
+    /omit-if-no-ref/ pbl: prospector_brightness_stub {
+      compatible = "zmk,behavior-macro-two-param";
+      #binding-cells = <2>;
+      bindings = <&none>;
     };
+  };
 #endif
-/ {
+
+
   behaviors {
     // Hold-tap behavior for layer with tap-preferred
     blt: blt {
