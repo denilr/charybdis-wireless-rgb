@@ -88,7 +88,7 @@ include:
       - shield: "charybdis_dongle prospector_adapter"
         extra_conf_files:
           - dongle_prospector/dongle_prospector_common.conf
-          - dongle_prospector_layouts/dongle_prospector_layout_operator.conf
+          - dongle_prospector_layouts/dongle_prospector_layout_classic.conf
           - dongle_prospector/dongle_prospector_sensor.conf
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
